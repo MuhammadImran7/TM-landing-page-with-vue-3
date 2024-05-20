@@ -16,7 +16,7 @@
         </div>
         <div class="grid grid-cols-12 gap-4 py-4 text-center place-content-center">
         <div v-for="(product, index) in products" :key="index" class="col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-12">
-          <div class="relative">
+          <div class="relative main"> 
             <img :src="product.image" :alt="product.title" class="w-full">
             <div class="bg-gray-400 bg-opacity-40 text-center absolute bottom-0 w-full">
               <h3 class="font-bold text-[#29275b] py-6 px-6 text-xl">{{ product.title }}</h3>
