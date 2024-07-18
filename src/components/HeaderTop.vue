@@ -21,7 +21,7 @@
             <div class="flex gap-10 items-center lg:justify-center md:justify-start sm:justify-start">
                 <div class="pt-6">
                     <img :src="location" alt="" class="h-5 w-6">
-                    <p>Showrooms</p>
+                    <p>Showrooms jsjsjjs</p>
                 </div>
                 <img :src="user" alt="" class="h-5 w-6">
                 <img :src="basket" alt="" class="h-5 w-6">
